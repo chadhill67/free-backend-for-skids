@@ -1,0 +1,50 @@
+{
+    "_id": "athena",
+    "created": "2020-01-01T00:00:00.000Z",
+    "updated": "2020-01-01T00:00:00.000Z",
+    "rvn": 1,
+    "wipeNumber": 1,
+    "accountId": "",
+    "profileId": "athena",
+    "version": "no_version",
+    "items": {
+        "AthenaPickaxe:DefaultPickaxe": {
+            "templateId": "AthenaPickaxe:DefaultPickaxe",
+            "attributes": { "item_seen": true, "favorite": false },
+            "quantity": 1
+        },
+        "AthenaGlider:DefaultGlider": {
+            "templateId": "AthenaGlider:DefaultGlider",
+            "attributes": { "item_seen": true, "favorite": false },
+            "quantity": 1
+        }
+    },
+    "stats": {
+        "attributes": {
+            "season_match_boost": 0,
+            "loadouts": ["sandbox_loadout"],
+            "rested_xp_overflow": 0,
+            "book_level": 1,
+            "season_num": 1,
+            "book_xp": 0,
+            "creative_dynamic_xp": {},
+            "party_assist_quest": "",
+            "pinned_quest": "",
+            "lifetime_wins": 0,
+            "book_purchased": false,
+            "rested_xp_exchange": 1,
+            "level": 1,
+            "xp": 0,
+            "favorite_musicpack": "",
+            "favorite_glider": "AthenaGlider:DefaultGlider",
+            "favorite_pickaxe": "AthenaPickaxe:DefaultPickaxe",
+            "favorite_skydivecontrail": "",
+            "favorite_backpack": "",
+            "favorite_dance": ["", "", "", "", "", ""],
+            "favorite_itemwraps": ["", "", "", "", "", "", ""],
+            "favorite_character": "AthenaCharacter:CID_001_Athena_Commando_F_Default",
+            "favorite_loadingscreen": ""
+        }
+    },
+    "commandRevision": 1
+}

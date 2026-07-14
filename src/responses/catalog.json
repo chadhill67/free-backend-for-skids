@@ -1,0 +1,53 @@
+{
+    "refreshIntervalHrs": 24,
+    "dailyPurchaseHrs": 24,
+    "expiration": "9999-01-01T00:00:00.000Z",
+    "storefronts": [
+        {
+            "name": "BRDailyStorefront",
+            "catalogEntries": [
+                {
+                    "devName": "Daily - Skull Trooper",
+                    "offerId": "v2:/daily_skulltrooper",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-01-01T00:00:00.000Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": { "SectionId": "Daily", "TileSize": "Small" },
+                    "matchFilter": "",
+                    "filterWeight": 0,
+                    "appStoreId": [],
+                    "requirements": [
+                        { "requirementType": "DenyOnItemOwnership", "requiredId": "AthenaCharacter:CID_030_Athena_Commando_M_Halloween", "minQuantity": 1 }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "itemGrants": [
+                        { "templateId": "AthenaCharacter:CID_030_Athena_Commando_M_Halloween", "quantity": 1 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BRWeeklyStorefront",
+            "catalogEntries": []
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "_id": "common_core",
+    "created": "2020-01-01T00:00:00.000Z",
+    "updated": "2020-01-01T00:00:00.000Z",
+    "rvn": 1,
+    "wipeNumber": 1,
+    "accountId": "",
+    "profileId": "common_core",
+    "version": "no_version",
+    "items": {
+        "Currency:MtxPurchased": {
+            "templateId": "Currency:MtxPurchased",
+            "attributes": { "platform": "EpicPC" },
+            "quantity": 13500
+        }
+    },
+    "stats": {
+        "attributes": {
+            "mtx_purchase_history": { "refundsUsed": 0, "refundCredits": 3, "purchases": [] },
+            "current_mtx_platform": "EpicPC",
+            "mtx_affiliate": ""
+        }
+    },
+    "commandRevision": 1
+}
